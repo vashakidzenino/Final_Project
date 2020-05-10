@@ -1,3 +1,118 @@
-h1{
-	font-size: 12px;
+@font-face {
+	font-family: 'bold';
+	src: url("fonts/helvetica_neue_bold.ttf");
 }
+@font-face {
+	font-family: 'regular';
+	src: url("fonts/helvetica_neue_light.ttf");
+}
+
+@font-face {
+	font-family: 'medium';
+	src: url("fonts/helvetica_neue_roman.ttf");
+}
+/* საიტის ზოგადი ნაწილი, შტიფტების გადანაწილება ----------- */
+*{
+	margin: 0; 
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+html{
+	height: 100vh; 
+}
+
+body{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+
+header nav ul li a, .mainP, .productP, .footerLastP {
+	font-family: "regular";
+}
+h1, h2, h3, .mainA, .categoryName, .buy, .whyWe, .whyWeN, .footerLastA {
+	font-family: "bold";
+}
+
+.footerAddress, .footerP, .footerA {
+		font-family: "medium";
+}
+
+/* Header ----------------------------------------------- */
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 170px;
+	margin:0 60px;
+}
+header nav ul li {
+	display: inline-block;
+    font-size: 18px;
+    margin: 0 20px;
+    letter-spacing: 0;
+    color: #4D4D4D;
+}
+header nav ul li a{
+	color: #4D4D4D;
+	position: relative;
+}
+
+.navA::after {
+content: '';
+display: block;
+width: 0;
+height: 2px;
+background: #000;
+margin-top: 5px;
+margin-left: -10px;
+transition: width 0.3s;
+}
+.navA:hover::after {
+  width: 50%;
+  transition: width 0.3s;
+}
+
+/* Main ----------------------------------------------- */
+.main{
+	margin:0 60px;
+	display: flex;
+	justify-content: space-between;
+}
+.mainText{
+	margin-right: 10%;
+	margin-left: 5%;
+}
+h1{
+	margin: 0px 0px 55px 10px;
+	font-size: 84px;
+}
+.mainP{
+	margin: 0px 0px 55px 10px;
+	font-size: 24px;
+	width:620px;
+}
+.mainA{
+	margin: 0px 0px 55px 10px;
+	width:200px;
+	font-size: 18px;
+	color:#4D4D4D;
+	padding: 25px 58px;
+	text-align: center;
+	background: #f2f2f2;
+	border-radius: 5px;
+}
+.mainA:hover{
+	color:#f2f2f2;
+	background: #4D4D4D;
+}
+.mainImg2{
+	margin: 0;
+	height: calc(100vh-170vh);
+	object-fit: contain;
+}
+
