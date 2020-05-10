@@ -90,11 +90,13 @@ transition: width 0.3s;
 h1{
 	margin: 0px 0px 55px 10px;
 	font-size: 84px;
+	color: #4D4D4D;
 }
 .mainP{
 	margin: 0px 0px 55px 10px;
 	font-size: 24px;
 	width:620px;
+	color: #4D4D4D;
 }
 .mainA{
 	margin: 0px 0px 55px 10px;
