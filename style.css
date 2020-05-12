@@ -124,27 +124,49 @@ h1{
 .categoryUl{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	flex-wrap: nowrap;
 	align-items: flex-end;
+	margin-bottom: 130px;
+
 	
 }
-.categoryImg{
+.categoryLi{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 480px;
 	height: 342px;
+	margin-top: 208px;
+
+}
+.categoryImg{
+
+	align-self: flex-end;
 
 
 }
 .categoryName{
 	color: #4D4D4D;
 	font-size: 24px;
-	align-items: flex-start;
+	align-self: center;
 }
-/*Section-----*/
+
+
+/*Product Section-----*/
+.productSection{
+	width: 90%;
+}
+h2{
+	font-size: 32px;
+	color: #4D4D4D;
+	margin-bottom: 70px;
+}
 .productSectionUl{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
+	
+	justify-content: flex-start;
 	align-content: flex-end;
 
 }
@@ -159,13 +181,48 @@ h1{
 
 /*Why we Section-----*/
 .whyWeSectionUl{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
+ display: flex;
+ justify-content: space-between;
+}
+
+.whyWeImg{
+	width:480px;
+	height: 290px;
+}
+
+.whyWeDiv{
+
+  position: absolute;
+  text-align: center;
+  align-content: center;
+  background-color: white;
+
+  margin-left: 20px;
+  margin-top: 170px;
+}
+
+.whyWeN{
+
+
+
+  color: black;
+  background-color: white;
+  font-size: 40px;
+  margin: 5px;
+  
 
 }
+.whyWe{
+
+  position: absolute;
+  color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 23px;
+}
 .whyWeSectionLi{
-	display: flex;
+	display: inline-flex;
+	text-align: left;
 }
 .whyWeSectionLi{
 	margin:50px 18px;
@@ -288,3 +345,21 @@ margin: 0 30px;
 	border:solid;
 }
 
+
+/*product list page------*/
+
+.navA2::after {
+content: '';
+display: block;
+width: 0;
+height: 2px;
+background: #000;
+margin-top: 5px;
+margin-left: -10px;
+transition: width 0.3s;
+ width: 50%;
+}
+/*.navA:hover::after {
+  width: 50%;
+  transition: width 0.3s;
+}
