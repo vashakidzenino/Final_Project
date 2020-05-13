@@ -152,7 +152,7 @@ h2{
 .productSectionUl {
 	display: flex;
 	align-items:  flex-end;
-	width: 90%;
+	width: 86%;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
@@ -375,17 +375,17 @@ path#heart:hover {
 }
 
 path#fb:hover {
-  fill: #3b5998;
-  stroke: #3b5998;
+  fill: grey;
+  stroke: grey;
 }
 g#insta:hover {
-	fill:#e1306c;
-	stroke: #e1306c;
+	fill:grey;
+	stroke: grey;
 } 
 
 path#twitter:hover {
-  fill: #00acee;
-  stroke: #00acee;
+  fill: grey;
+  stroke: grey;
 }
 
 
