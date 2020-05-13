@@ -144,49 +144,49 @@ h2{
 /*Product Section-----*/
 .productSection{
 
-  align-items: center;
-  padding: 0;
-  margin: 0;
+	align-items: center;
+	padding: 0;
+	margin: 0;
 }
 
 .productSectionUl {
 	display: flex;
 	align-items:  flex-end;
-	width: 86%;
+
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 .productSectionLi {
 
-flex-wrap: wrap;
-justify-content: space-around;
-margin:30px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin:30px;
 }
 
 .productSectionImg{
-width: 360px;
-height: 360px;
+	width: 360px;
+	height: 360px;
 
 }
 .buy{
-color: #4D4D4D; #A1A1A1;
-font-size: 18px;
-border: none;
+	color: #4D4D4D; 
+	font-size: 18px;
+	border: none;
 }
 .buy:hover {
-color:#A1A1A1;
-border:solid;
-padding: 2px;
-border-radius: 5px;
+	color:#A1A1A1;
+	border:solid;
+	padding: 2px;
+	border-radius: 5px;
 }
 
 h3 {
-  padding-top: 30px;
-  padding-bottom: 11px;
-  text-align: center;
-  font-weight: lighter;
-  color: #4D4D4D;
-  font-size: 24px;
+	padding-top: 30px;
+	padding-bottom: 11px;
+	text-align: center;
+	font-weight: lighter;
+	color: #4D4D4D;
+	font-size: 24px;
 }
 
 .productP{
@@ -199,20 +199,20 @@ h3 {
 
 .productDiv1{
 	display: flex;
-	  justify-content: space-between;
+	justify-content: space-between;
 }
 
 .productDiv2 {
 	display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+	justify-content: space-between;
+	flex-wrap: nowrap;
 }
 
 
 /*Why we Section-----*/
 .whyWeSectionUl{
- display: flex;
- justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 
 }
 
@@ -222,32 +222,27 @@ h3 {
 }
 
 .whyWeDiv{
-
-  position: absolute;
-  text-align: center;
-  align-content: center;
-  background-color: white;
-
-  margin-left: 20px;
-  margin-top: 170px;
+	position: absolute;
+	text-align: center;
+	align-content: center;
+	background-color: white;
+	margin-left: 20px;
+	margin-top: 170px;
 }
 
 .whyWeN{
-
-
-
-  color: black;
-  background-color: white;
-  font-size: 40px;
-  margin: 5px;
-  width:70px;
+	color: black;
+	background-color: white;
+	font-size: 40px;
+	margin: 5px;
+	width:70px;
   
 
 }
 .whyWe{
 
-  position: absolute;
-  color: white;
+  	position: absolute;
+  	color: white;
     margin-left: 20px;
     margin-top: 20px;
     font-size: 23px;
