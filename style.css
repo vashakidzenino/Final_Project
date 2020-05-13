@@ -62,20 +62,6 @@ header nav ul li a{
 	position: relative;
 }
 
-.navA::after {
-content: '';
-display: block;
-width: 0;
-height: 2px;
-background: #000;
-margin-top: 5px;
-margin-left: -10px;
-transition: width 0.3s;
-}
-.navA:hover::after {
-  width: 50%;
-  transition: width 0.3s;
-}
 
 /* Main ----------------------------------------------- */
 .main{
@@ -183,6 +169,7 @@ h2{
 .whyWeSectionUl{
  display: flex;
  justify-content: space-between;
+
 }
 
 .whyWeImg{
@@ -209,6 +196,7 @@ h2{
   background-color: white;
   font-size: 40px;
   margin: 5px;
+  width:70px;
   
 
 }
@@ -225,7 +213,7 @@ h2{
 	text-align: left;
 }
 .whyWeSectionLi{
-	margin:50px 18px;
+	margin:0 18px 60px 18px;
 	display: inline-block;
 	justify-content:space-between;
 }
@@ -296,6 +284,70 @@ footer{
 .footerSVG2{
 margin: 0 30px;
 }
+
+/* hovers ------*/
+
+.navA::after {
+content: '';
+display: block;
+width: 0;
+height: 2px;
+background: #000;
+margin-top: 5px;
+margin-left: -10px;
+transition: width 0.3s;
+}
+.navA:hover::after {
+  width: 50%;
+  transition: width 0.3s;
+}
+
+
+
+.categoryLi::after {
+content: '';
+display: block;
+width: 0;
+height: 5px;
+background: #000;
+margin-top: 255px;
+margin-left: -63px;
+
+}
+.categoryLi:hover::after {
+  width: 40px;
+}
+
+
+
+path#cart:hover {
+  fill: grey;
+  stroke: grey;
+}
+
+path#heart:hover {
+  fill:grey;
+  stroke: grey;
+}
+
+path#fb:hover {
+  fill: #3b5998;
+  stroke: #3b5998;
+}
+g#insta:hover {
+	fill:#e1306c;
+	stroke: #e1306c;
+} 
+
+path#twitter:hover {
+  fill: #00acee;
+  stroke: #00acee;
+}
+
+
+
+
+
 
 /*Product Page Main-------*/
 .productPageMain{
