@@ -157,7 +157,7 @@ h2{
 	flex-wrap: wrap;
 }
 .productSectionLi {
-
+		width: calc(100%/4);
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin:30px;
@@ -361,27 +361,27 @@ margin-left: -63px;
 
 
 path#cart:hover {
-  fill: grey;
-  stroke: grey;
+	fill: black;
+	stroke: black;
 }
 
 path#heart:hover {
-  fill:grey;
-  stroke: grey;
+	fill: none;
+	stroke: black;
 }
 
 path#fb:hover {
-  fill: grey;
-  stroke: grey;
+	fill: black;
+	stroke: black;
 }
 g#insta:hover {
-	fill:grey;
-	stroke: grey;
+	fill: black;
+	stroke: black;
 } 
 
 path#twitter:hover {
-  fill: grey;
-  stroke: grey;
+	fill: black;
+	stroke: black;
 }
 
 
@@ -541,4 +541,7 @@ h5{
 	color: #4D4D4D;
 	font-size: 18px;
 
+}
+.productListA2:hover{
+	border:solid;
 }
