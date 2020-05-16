@@ -31,14 +31,14 @@ body{
 }
 
 
-header nav ul li a, .mainP, .productP, .footerLastP, .productPageP1, .productPageP2 {
+header nav ul li a, .mainP, .productP, .footerLastP, .productPageP1, .productPageP2, .productListP {
 	font-family: "regular";
 }
-h1, h2, h3, .mainA, .categoryName, .buy, .whyWe, .whyWeN, .footerLastA, .productPageA, .productPageSpan {
+h1, h2, h3, h5, .mainA, .categoryName, .buy, .whyWe, .whyWeN, .footerLastA, .productPageA, .productPageSpan, .productListSpan, .productListA2{
 	font-family: "bold";
 }
 
-.footerAddress, .footerP, .footerA, .productPageH {
+.footerAddress, .footerP, .footerA, .productPageH, .selector, h4 {
 		font-family: "medium";
 }
 
@@ -263,7 +263,7 @@ footer{
 	
 	background: #F2F2F2;
 	flex-direction:column;
-	padding: 65px 187px 20px 200px;
+	padding: 65px 150px 20px 140px;
 
 }
 .footerImg{
@@ -314,7 +314,7 @@ footer{
 .footerLower{
 	display: flex;
 	justify-content: flex-end;
-	align-items: flex-end;
+	align-items: center;
 	border-top: solid 1px #DDDDDD;
 	padding-top: 30px;
 
@@ -322,6 +322,7 @@ footer{
 
 .footerSVG2{
 margin: 0 30px;
+
 }
 
 /* hovers ------*/
@@ -440,17 +441,104 @@ path#twitter:hover {
 /*product list page------*/
 
 .navA2::after {
-content: '';
-display: block;
-width: 0;
-height: 2px;
-background: #000;
-margin-top: 5px;
-margin-left: -10px;
-transition: width 0.3s;
- width: 50%;
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #000;
+	margin-top: 5px;
+	margin-left: -10px;
+	transition: width 0.3s;
+	width: 50%;
 }
-/*.navA:hover::after {
-  width: 50%;
-  transition: width 0.3s;
+
+.selectorSection{
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center;
+	margin:0 100px;
+}
+
+.selector{
+	padding: 10px;
+	width: 250px;
+	height: 54px;
+	border: 1px solid #D9D9D9;
+	border-radius: 10px;
+	font-size: 16px;
+	opacity: 0.7;
+}
+
+.productListUl{
+	display: flex;
+	flex-direction: column;
+	margin-top: 37px;
+	margin-bottom:50px;
+}
+
+
+
+.productListLi{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: auto;
+	margin-bottom: 30px;
+	width: 1000px;
+	height: 200px;
+	border: solid 0.5px #D9D9D9;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+
+
+.productListImg{
+	width: 150px;
+}
+
+
+.productListDiv3{
+	width: 300px;
+}
+
+h5{
+	font-size: 28px
+}
+
+.productListP{
+	font-size: 15px;
+	font-weight: lighter;
+}
+.productListDiv4{
+
+	display: flex;
+}
+.svg{
+	margin:0 10px;
+	width:30px;
+	height: 33px;
+}
+.productListDiv5{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 150px;
+	align-items:center;
+}
+
+
+.productListSpan{
+	font-size: 22px;
+	color: #4D4D4D;
+}
+
+.productListA2{
+	border-radius: 5px;
+	background-color: #f7f7f7;;
+	text-align: center;
+	padding: 24px 63px 26px 62px;
+	color: #4D4D4D;
+	font-size: 18px;
+
 }
